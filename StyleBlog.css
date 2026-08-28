@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0D1117;
+}
+/* Cabeçalho ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.Cabecalho {
+
+  display: flex;
+  justify-content: space-between; 
+  column-gap: 70px;
+  background-color: #1F232B;
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  text-decoration: none ;
+
+}
+
+.Cabecalho h1 {
+  color: #E1E4E8;
+}
+
+.Cabecalho nav a {
+  color: #E1E4E8;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  
+}
+.Cabecalho nav a:hover {
+  color: gold  ;
+}
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* Introdução */
+
+.Introducao {
+  color: #E1E4E8;
+  padding: 20px;
+  text-align: center;
+}
+
+.Alinhar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Introducao h1 {
+  justify-content: center;
+  font-family: Arial, sans-serif;;
+  margin-bottom: 10px;
+}
+
+.Introducao h2 {
+ maz
+  line-height: 1.5;
+}
+
+.Introducao img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 10%;
+  margin-top: 20px;
+}
